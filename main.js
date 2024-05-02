@@ -8,7 +8,7 @@
 
 function createCounter(init) {
     let presentCount = init;
-        function increment(){
+    function increment(){
         return ++presentCount;
     }
         function decrement(){
